@@ -1,0 +1,413 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+
+/* class */
+.button {
+    font-size: 20px;
+    color: #666;
+    background-color: white;
+    border: 1px solid #CDCDCD;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #26537B;
+    background-color: #E6E6E6;
+    transition: 0.3s;
+}
+/* end of class */
+
+
+/* Start of navigation bar */
+header {
+    position: fixed;
+    width: 100%;
+    background: #383E4C;
+    margin: 0;
+    z-index: 500;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li a {
+    font-size: 20px;
+    border: 1px solid #656D7C;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: #49505F;
+    transition: 0.3s;
+}
+
+li {
+    list-style: none;
+    color: white;
+    margin: 25px;
+}
+/* End of navigation bar */
+
+
+/* Start of hompage */
+#homepage {
+    padding-top: 150px;
+    background-image: url("images/rocks-beach-dark.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepage h1, #homepage h4 {
+    position: relative;
+    top: 120px;
+    margin: 0px;
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#homepage h4 {
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+/* End of hompage */
+
+
+/* Start of about us 1 */
+#about-us-1 {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#about-us-1 figure {
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+}
+
+#about-us-1 figure img{
+    width: 100%;
+    height: auto;
+}
+
+#about-us-1 figure p {
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 0px 25px 0px 25px;
+}
+
+#title1 {
+    color: #20892E;
+}
+
+
+#title2 {
+    color: #2187BF;
+}
+
+#title3 {
+    color: #666;
+}
+
+#green-button {
+    background-color: #20892E;
+    color: white;
+}
+
+#green-button:hover {
+    background-color: #489C49;
+}
+
+#blue-button {
+    background-color: #2187BF;
+    color: white;
+}
+
+#blue-button:hover {
+    background-color: #3AB1D3;
+}
+
+#red-button {
+    background-color: #84250F;
+    color: white;
+}
+
+#red-button:hover {
+    background-color: #C73232;
+}
+/* End of about us 1 */
+
+
+/* Start of about us 2 */
+#about-us-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#about-us-2 figure {
+    background-color: #F2F2F2;
+    padding-bottom: 60px;
+}
+
+#about-us-2 figure h1 {
+    color: #666;
+}
+
+#about-us-2 figure img {
+    width: 100%;
+}
+
+#about-us-2 figure p {
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 0px 25px 0px 25px;
+}
+/* End of about us 2 */
+
+
+/* Start of services */
+#services {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-image: url("images/winter-lake-dark.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services h1, #services h4 {
+    position: relative;
+    top: 120px;
+    margin: 0px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#services h4 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    text-shadow: 2px 2px black;
+}
+/* End of services */
+
+
+/* Start of services 1 */
+#services-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#services-1 figure h1 {
+    font-size: 22px;
+    color: #666;
+}
+
+#services-1 figure {
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+}
+
+#services-1 figure img {
+    width: 100%;
+    height: auto;
+}
+
+#services-1 figure p {
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 0px 25px 0px 25px;
+    color: #333;
+}
+/* End of services 1 */
+
+
+/* Start of services 2 */
+#services-2 {
+    margin-top: 60px;
+    text-align: left;
+}
+
+#services-2 figure {
+    background-color: #F2F2F2;
+    padding-bottom: 35px;
+}
+
+#services-2 figure img {
+    width: 100%;
+    height: auto;
+}
+
+#services-2 figure h1 {
+    margin: 0;
+    font-size: 22px;
+    margin-top: 40px;
+    padding: 0px 20px 0px 20px;
+    color: #666;
+}
+
+#services-2 figure article {
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 40px;
+}
+
+#services-2 figure p {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#services-2 figure a {
+    margin-left: 20px;
+}
+/* End of services 2 */
+
+
+/* Start of contact */
+#contact {
+    width: 100%;
+    height: 550px;
+    background-image: url("images/zen-garden-dark.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    margin: 80px 0px 20px 0px;
+}
+
+#contact h1, #contact p {
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+#contact h1 {
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+    text-shadow: 4px 4px black;
+}
+
+#contact p {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border-radius: 1em;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+
+#contact form #left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    right: 3%;
+}
+
+#contact form #right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 3%;
+}
+
+#contact form #right-side textarea {
+    background: rgba(0, 0, 0, 1.0);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    resize: none;
+}
+
+#contact form input {
+    background: rgba(0, 0, 0, 1);
+    padding: 5px;
+    opacity: 100%;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+#contact form input::placeholder {
+    color: white;
+}
+
+#contact form textarea::placeholder {
+    color: white;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+}
+/* End of contact*/
+
+
+/* Start of footer */
+hr {
+    border: none;
+    background-color: #EEEEEE;
+    height: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #5F5F5F;
+}
+/* End of footer */
