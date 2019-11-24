@@ -8,7 +8,6 @@ body {
 }
 
 
-/* class */
 .button {
     font-size: 20px;
     color: #666;
@@ -25,7 +24,6 @@ body {
     background-color: #E6E6E6;
     transition: 0.3s;
 }
-/* end of class */
 
 
 /* Start of navigation bar */
@@ -65,15 +63,19 @@ li {
 /* End of navigation bar */
 
 
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* Start of hompage */
 #homepage {
     padding-top: 150px;
     background-image: url("images/rocks-beach-dark.jpg");
     height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #homepage h1, #homepage h4 {
@@ -95,24 +97,24 @@ li {
 
 
 /* Start of about us 1 */
-#about-us-1 {
+.three-columns {
     padding-top: 60px;
     display: flex;
     flex-direction: row;
     text-align: center;
 }
 
-#about-us-1 figure {
+.three-columns figure {
     background-color: #F2F2F2;
     padding-bottom: 30px;
 }
 
-#about-us-1 figure img{
+.three-columns figure img{
     width: 100%;
     height: auto;
 }
 
-#about-us-1 figure p {
+.three-columns figure p {
     margin-bottom: 40px;
     text-align: left;
     padding: 0px 25px 0px 25px;
@@ -161,27 +163,27 @@ li {
 
 
 /* Start of about us 2 */
-#about-us-2 {
+.two-columns {
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
     text-align: center;
 }
 
-#about-us-2 figure {
+.two-columns figure {
     background-color: #F2F2F2;
     padding-bottom: 60px;
 }
 
-#about-us-2 figure h1 {
+.two-columns figure h1 {
     color: #666;
 }
 
-#about-us-2 figure img {
+.two-columns figure img {
     width: 100%;
 }
 
-#about-us-2 figure p {
+.two-columns figure p {
     margin-bottom: 30px;
     text-align: left;
     padding: 0px 25px 0px 25px;
@@ -196,10 +198,6 @@ li {
     width: 100%;
     height: 400px;
     background-image: url("images/winter-lake-dark.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #services h1, #services h4 {
@@ -224,29 +222,29 @@ li {
 
 
 /* Start of services 1 */
-#services-1 {
+.four-columns {
     display: flex;
     flex-direction: row;
     margin-top: 60px;
     text-align: center;
 }
 
-#services-1 figure h1 {
+.four-columns figure h1 {
     font-size: 22px;
     color: #666;
 }
 
-#services-1 figure {
+.four-columns figure {
     background-color: #F2F2F2;
     padding-bottom: 30px;
 }
 
-#services-1 figure img {
+.four-columns figure img {
     width: 100%;
     height: auto;
 }
 
-#services-1 figure p {
+.four-columns figure p {
     margin-bottom: 40px;
     text-align: left;
     padding: 0px 25px 0px 25px;
@@ -256,22 +254,22 @@ li {
 
 
 /* Start of services 2 */
-#services-2 {
+.one-column {
     margin-top: 60px;
     text-align: left;
 }
 
-#services-2 figure {
+.one-column figure {
     background-color: #F2F2F2;
     padding-bottom: 35px;
 }
 
-#services-2 figure img {
+.one-column figure img {
     width: 100%;
     height: auto;
 }
 
-#services-2 figure h1 {
+.one-column figure h1 {
     margin: 0;
     font-size: 22px;
     margin-top: 40px;
@@ -279,17 +277,17 @@ li {
     color: #666;
 }
 
-#services-2 figure article {
+.one-column figure article {
     padding: 0px 20px 0px 20px;
     margin-bottom: 40px;
 }
 
-#services-2 figure p {
+.one-column figure p {
     margin-bottom: 30px;
     color: #333;
 }
 
-#services-2 figure a {
+.one-column figure a {
     margin-left: 20px;
 }
 /* End of services 2 */
@@ -300,10 +298,6 @@ li {
     width: 100%;
     height: 550px;
     background-image: url("images/zen-garden-dark.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 30px;
     margin: 80px 0px 20px 0px;
 }
@@ -401,11 +395,11 @@ li {
 /* Start of footer */
 hr {
     border: none;
-    background-color: #EEEEEE;
+    background-color: grey;
     height: 1px;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
     color: #5F5F5F;
